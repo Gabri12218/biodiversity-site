@@ -1,0 +1,234 @@
+[Uploading <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Biodiversity Awareness</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #62b8af;
+      color: #fafbfb;
+      margin: 0;
+      text-shadow: -0.5px -0.5px 0 black, -0.5px -0.5px 0 #d5f1f0,
+            -0.5px 0.5px 0 #d5f1f0, 0.5px 0.5px #d5f1f0;"
+     
+
+    }
+
+    nav {
+      background: #03313d;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    nav h1 {
+      color: white;
+      font-size: 2rem;2
+    }
+
+    .slideshow {
+      position: relative;
+      max-width: 100%;
+      margin: auto;
+      overflow: hidden;
+    }
+
+    .slides {
+      display: flex;
+      width: 300%;
+      animation: slide 200s infinite;
+    }
+
+    .slides img {
+      width: 60%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    @keyframes slide {
+      0% { transform: translateX(0%); }
+      33% { transform: translateX(-100%); }
+      66% { transform: translateX(-200%); }
+      100% { transform: translateX(0%); }
+    }
+
+    .content {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    h2 {
+      margin-top: 3rem;
+      font-size: 2.2rem;
+    }
+
+    p {
+      margin: 3rem ;
+      line-height: 1.6;
+    }
+
+    .feedback {
+      background: #1e3148;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    .feedback input, .feedback textarea {
+      width: 80%;
+      max-width: 500px;
+      padding: 0.8rem;
+      margin: 0.5rem 0;
+      border-radius: 10px;
+      border: 1px solid #ccc;
+    }
+
+    .feedback button {
+      background: #d1feff;
+      color: black;
+      padding: 0.7rem 1.5rem;
+      border: none;
+      border-radius: 10px;
+      margin-top: 1rem;
+      cursor: pointer;
+    }
+
+    .feedback button:hover {
+      background: #c4ff9e;
+    }
+
+    footer {
+      text-align: center;
+      background: #047857;
+      color: black;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <h1>🍃🌿 Biodiversity Awareness🌿🍃</h1>
+  </nav>
+
+  
+   <div class="slideshow">
+    <div class="slides">
+      <img src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e" alt="Nature 1"/>
+      <img src="https://th.bing.com/th?id=OIF.yhdHnBV4FXF%2bm3khsFowIg&cb=iwc2&rs=1&pid=ImgDetMain" alt="Nature 2"/>
+      <img src="https://th.bing.com/th/id/OIP.FsS9TsdB4PMiqN1qGlGIAgHaER?cb=iwc2&w=626&h=361&rs=1&pid=ImgDetMain" alt="Nature 3"/>
+      <img src="https://th.bing.com/th/id/OIP._2Ybd24Kn7j9PRONULLXpgHaEK?w=295&h=180&c=7&r=0&o=5&cb=iwc2&dpr=1.1&pid=1.7" alt="Nature 4"/>
+      <img src="https://th.bing.com/th/id/OIP.mgPj8uHfev6GaHPGUBMOuQHaEK?cb=iwc2&rs=1&pid=ImgDetMain" alt="Nature 5"/>
+      <img src="https://th.bing.com/th/id/R.01f939df80332a1b3c974bd1e7893736?rik=snhyO9NITRL9sw&pid=ImgRaw&r=0&sres=1&sresct=1" alt="Nature 6"/>
+      <img src="https://th.bing.com/th/id/OIP.9Zedeh_UkW_xLP0h0CEXcAHaE8?w=235&h=180&c=7&r=0&o=5&cb=iwc2&dpr=1.1&pid=1.7" alt="Nature 7"/>
+      <img src="https://th.bing.com/th/id/OIP.KMSMY3XZ6iwZPUF9D0-f7wHaD4?w=315&h=180&c=7&r=0&o=5&cb=iwc2&dpr=1.1&pid=1.7" alt="Nature 8"/>
+      <img src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e" alt="Nature 1"/>
+      <img src="https://th.bing.com/th?id=OIF.yhdHnBV4FXF%2bm3khsFowIg&cb=iwc2&rs=1&pid=ImgDetMain" alt="Nature 2"/>
+      <img src="https://th.bing.com/th/id/OIP.FsS9TsdB4PMiqN1qGlGIAgHaER?cb=iwc2&w=626&h=361&rs=1&pid=ImgDetMain" alt="Nature 3"/>
+      <img src="https://th.bing.com/th/id/OIP._2Ybd24Kn7j9PRONULLXpgHaEK?w=295&h=180&c=7&r=0&o=5&cb=iwc2&dpr=1.1&pid=1.7" alt="Nature 4"/>
+      <img src="https://th.bing.com/th/id/OIP.mgPj8uHfev6GaHPGUBMOuQHaEK?cb=iwc2&rs=1&pid=ImgDetMain" alt="Nature 5"/>
+      <img src="https://th.bing.com/th/id/R.01f939df80332a1b3c974bd1e7893736?rik=snhyO9NITRL9sw&pid=ImgRaw&r=0&sres=1&sresct=1" alt="Nature 6"/>
+      <img src="https://th.bing.com/th/id/OIP.9Zedeh_UkW_xLP0h0CEXcAHaE8?w=235&h=180&c=7&r=0&o=5&cb=iwc2&dpr=1.1&pid=1.7" alt="Nature 7"/>
+      <img src="https://th.bing.com/th/id/OIP.KMSMY3XZ6iwZPUF9D0-f7wHaD4?w=315&h=180&c=7&r=0&o=5&cb=iwc2&dpr=1.1&pid=1.7" alt="Nature 8"/>
+      <img src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e" alt="Nature 1"/>
+      <img src="https://th.bing.com/th?id=OIF.yhdHnBV4FXF%2bm3khsFowIg&cb=iwc2&rs=1&pid=ImgDetMain" alt="Nature 2"/>
+      <img src="https://th.bing.com/th/id/OIP.FsS9TsdB4PMiqN1qGlGIAgHaER?cb=iwc2&w=626&h=361&rs=1&pid=ImgDetMain" alt="Nature 3"/>
+      <img src="https://th.bing.com/th/id/OIP._2Ybd24Kn7j9PRONULLXpgHaEK?w=295&h=180&c=7&r=0&o=5&cb=iwc2&dpr=1.1&pid=1.7" alt="Nature 4"/>
+      <img src="https://th.bing.com/th/id/OIP.mgPj8uHfev6GaHPGUBMOuQHaEK?cb=iwc2&rs=1&pid=ImgDetMain" alt="Nature 5"/>
+      <img src="https://th.bing.com/th/id/R.01f939df80332a1b3c974bd1e7893736?rik=snhyO9NITRL9sw&pid=ImgRaw&r=0&sres=1&sresct=1" alt="Nature 6"/>
+      <img src="https://th.bing.com/th/id/OIP.9Zedeh_UkW_xLP0h0CEXcAHaE8?w=235&h=180&c=7&r=0&o=5&cb=iwc2&dpr=1.1&pid=1.7" alt="Nature 7"/>
+      <img src="https://th.bing.com/th/id/OIP.KMSMY3XZ6iwZPUF9D0-f7wHaD4?w=315&h=180&c=7&r=0&o=5&cb=iwc2&dpr=1.1&pid=1.7" alt="Nature 8"/>
+      <img src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e" alt="Nature 1"/>
+      <img src="https://th.bing.com/th?id=OIF.yhdHnBV4FXF%2bm3khsFowIg&cb=iwc2&rs=1&pid=ImgDetMain" alt="Nature 2"/>
+      <img src="https://th.bing.com/th/id/OIP.FsS9TsdB4PMiqN1qGlGIAgHaER?cb=iwc2&w=626&h=361&rs=1&pid=ImgDetMain" alt="Nature 3"/>
+      <img src="https://th.bing.com/th/id/OIP._2Ybd24Kn7j9PRONULLXpgHaEK?w=295&h=180&c=7&r=0&o=5&cb=iwc2&dpr=1.1&pid=1.7" alt="Nature 4"/>
+      <img src="https://th.bing.com/th/id/OIP.mgPj8uHfev6GaHPGUBMOuQHaEK?cb=iwc2&rs=1&pid=ImgDetMain" alt="Nature 5"/>
+      <img src="https://th.bing.com/th/id/R.01f939df80332a1b3c974bd1e7893736?rik=snhyO9NITRL9sw&pid=ImgRaw&r=0&sres=1&sresct=1" alt="Nature 6"/>
+      <img src="https://th.bing.com/th/id/OIP.9Zedeh_UkW_xLP0h0CEXcAHaE8?w=235&h=180&c=7&r=0&o=5&cb=iwc2&dpr=1.1&pid=1.7" alt="Nature 7"/>
+      <img src="https://th.bing.com/th/id/OIP.KMSMY3XZ6iwZPUF9D0-f7wHaD4?w=315&h=180&c=7&r=0&o=5&cb=iwc2&dpr=1.1&pid=1.7" alt="Nature 8"/>
+
+    </div>
+  </div>
+
+
+  <div class="content">
+    <h2>What is Biodiversity?</h2>
+    <p>Biodiversity is the variety of life on Earth—from plants and animals to fungi and microorganisms. Each plays a role in balancing our environment. Healthy ecosystems clean our water, purify our air, maintain our soil, regulate the climate, recycle nutrients, and provide us with food.</p>
+
+    <h2>Why is Biodiversity Important?</h2>
+    <p>It supports everything in nature that we need to survive: food, clean water, medicine, and shelter. A rich biodiversity ensures natural sustainability for all life forms. It’s the web of life that supports human well-being and economic development.</p>
+
+    <h2>Major Threats to Biodiversity</h2>
+    <p>1. Habitat Destruction: Urbanization and agriculture are wiping out wild habitats.</p>
+    <p>2. Climate Change: Alters habitats and endangers species unable to adapt quickly.</p>
+    <p>3. Pollution: Contaminates water, air, and soil, harming countless species.</p>
+    <p>4. Overexploitation: Overfishing, hunting, and poaching put immense pressure on wildlife.</p>
+    <p>5. Invasive Species: Non-native species disrupt local ecosystems and food chains.</p>
+
+    <h2>What Can We Do?</h2>
+    <p>Protecting biodiversity starts with understanding its value and taking responsibility for our impact on the environment. One of the most effective actions is to support the preservation of natural habitats by advocating for protected areas, sustainable land use, and reforestation projects. At an individual level, reducing waste, recycling, and minimizing the use of plastic can significantly lower pollution levels. Choosing sustainable products and conserving energy and water also play a critical role in reducing our ecological footprint.</p>
+
+<p>Equally important is raising awareness and engaging with others. We can make a difference by educating our communities, participating in local conservation efforts, and supporting organizations that fight for environmental protection. Making mindful consumer choices, such as avoiding products linked to deforestation or overfishing, also contributes to the solution. Each of us, through our daily choices and voices, has the power to protect life on Earth and ensure a thriving, biodiverse planet for future generations. Act today!</p>
+  </div>
+
+  <section class="feedback">
+    <h2>Share Your Thoughts!</h2>
+    <input type="text" placeholder="Your Name" />
+    <textarea rows="4" placeholder="Your Feedback"></textarea>
+    <button onclick="alert('Thank you for taking your time to provide us feedback!')">Submit</button>
+
+  </section>
+ <div class="slideshow">
+    <div class="slides">
+      <img src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e" alt="Nature 1"/>
+      <img src="https://th.bing.com/th?id=OIF.yhdHnBV4FXF%2bm3khsFowIg&cb=iwc2&rs=1&pid=ImgDetMain" alt="Nature 2"/>
+      <img src="https://th.bing.com/th/id/OIP.FsS9TsdB4PMiqN1qGlGIAgHaER?cb=iwc2&w=626&h=361&rs=1&pid=ImgDetMain" alt="Nature 3"/>
+      <img src="https://th.bing.com/th/id/OIP._2Ybd24Kn7j9PRONULLXpgHaEK?w=295&h=180&c=7&r=0&o=5&cb=iwc2&dpr=1.1&pid=1.7" alt="Nature 4"/>
+      <img src="https://th.bing.com/th/id/OIP.mgPj8uHfev6GaHPGUBMOuQHaEK?cb=iwc2&rs=1&pid=ImgDetMain" alt="Nature 5"/>
+      <img src="https://th.bing.com/th/id/R.01f939df80332a1b3c974bd1e7893736?rik=snhyO9NITRL9sw&pid=ImgRaw&r=0&sres=1&sresct=1" alt="Nature 6"/>
+      <img src="https://th.bing.com/th/id/OIP.9Zedeh_UkW_xLP0h0CEXcAHaE8?w=235&h=180&c=7&r=0&o=5&cb=iwc2&dpr=1.1&pid=1.7" alt="Nature 7"/>
+      <img src="https://th.bing.com/th/id/OIP.KMSMY3XZ6iwZPUF9D0-f7wHaD4?w=315&h=180&c=7&r=0&o=5&cb=iwc2&dpr=1.1&pid=1.7" alt="Nature 8"/>
+      <img src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e" alt="Nature 1"/>
+      <img src="https://th.bing.com/th?id=OIF.yhdHnBV4FXF%2bm3khsFowIg&cb=iwc2&rs=1&pid=ImgDetMain" alt="Nature 2"/>
+      <img src="https://th.bing.com/th/id/OIP.FsS9TsdB4PMiqN1qGlGIAgHaER?cb=iwc2&w=626&h=361&rs=1&pid=ImgDetMain" alt="Nature 3"/>
+      <img src="https://th.bing.com/th/id/OIP._2Ybd24Kn7j9PRONULLXpgHaEK?w=295&h=180&c=7&r=0&o=5&cb=iwc2&dpr=1.1&pid=1.7" alt="Nature 4"/>
+      <img src="https://th.bing.com/th/id/OIP.mgPj8uHfev6GaHPGUBMOuQHaEK?cb=iwc2&rs=1&pid=ImgDetMain" alt="Nature 5"/>
+      <img src="https://th.bing.com/th/id/R.01f939df80332a1b3c974bd1e7893736?rik=snhyO9NITRL9sw&pid=ImgRaw&r=0&sres=1&sresct=1" alt="Nature 6"/>
+      <img src="https://th.bing.com/th/id/OIP.9Zedeh_UkW_xLP0h0CEXcAHaE8?w=235&h=180&c=7&r=0&o=5&cb=iwc2&dpr=1.1&pid=1.7" alt="Nature 7"/>
+      <img src="https://th.bing.com/th/id/OIP.KMSMY3XZ6iwZPUF9D0-f7wHaD4?w=315&h=180&c=7&r=0&o=5&cb=iwc2&dpr=1.1&pid=1.7" alt="Nature 8"/>
+      <img src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e" alt="Nature 1"/>
+      <img src="https://th.bing.com/th?id=OIF.yhdHnBV4FXF%2bm3khsFowIg&cb=iwc2&rs=1&pid=ImgDetMain" alt="Nature 2"/>
+      <img src="https://th.bing.com/th/id/OIP.FsS9TsdB4PMiqN1qGlGIAgHaER?cb=iwc2&w=626&h=361&rs=1&pid=ImgDetMain" alt="Nature 3"/>
+      <img src="https://th.bing.com/th/id/OIP._2Ybd24Kn7j9PRONULLXpgHaEK?w=295&h=180&c=7&r=0&o=5&cb=iwc2&dpr=1.1&pid=1.7" alt="Nature 4"/>
+      <img src="https://th.bing.com/th/id/OIP.mgPj8uHfev6GaHPGUBMOuQHaEK?cb=iwc2&rs=1&pid=ImgDetMain" alt="Nature 5"/>
+      <img src="https://th.bing.com/th/id/R.01f939df80332a1b3c974bd1e7893736?rik=snhyO9NITRL9sw&pid=ImgRaw&r=0&sres=1&sresct=1" alt="Nature 6"/>
+      <img src="https://th.bing.com/th/id/OIP.9Zedeh_UkW_xLP0h0CEXcAHaE8?w=235&h=180&c=7&r=0&o=5&cb=iwc2&dpr=1.1&pid=1.7" alt="Nature 7"/>
+      <img src="https://th.bing.com/th/id/OIP.KMSMY3XZ6iwZPUF9D0-f7wHaD4?w=315&h=180&c=7&r=0&o=5&cb=iwc2&dpr=1.1&pid=1.7" alt="Nature 8"/>
+      <img src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e" alt="Nature 1"/>
+      <img src="https://th.bing.com/th?id=OIF.yhdHnBV4FXF%2bm3khsFowIg&cb=iwc2&rs=1&pid=ImgDetMain" alt="Nature 2"/>
+      <img src="https://th.bing.com/th/id/OIP.FsS9TsdB4PMiqN1qGlGIAgHaER?cb=iwc2&w=626&h=361&rs=1&pid=ImgDetMain" alt="Nature 3"/>
+      <img src="https://th.bing.com/th/id/OIP._2Ybd24Kn7j9PRONULLXpgHaEK?w=295&h=180&c=7&r=0&o=5&cb=iwc2&dpr=1.1&pid=1.7" alt="Nature 4"/>
+      <img src="https://th.bing.com/th/id/OIP.mgPj8uHfev6GaHPGUBMOuQHaEK?cb=iwc2&rs=1&pid=ImgDetMain" alt="Nature 5"/>
+      <img src="https://th.bing.com/th/id/R.01f939df80332a1b3c974bd1e7893736?rik=snhyO9NITRL9sw&pid=ImgRaw&r=0&sres=1&sresct=1" alt="Nature 6"/>
+      <img src="https://th.bing.com/th/id/OIP.9Zedeh_UkW_xLP0h0CEXcAHaE8?w=235&h=180&c=7&r=0&o=5&cb=iwc2&dpr=1.1&pid=1.7" alt="Nature 7"/>
+      <img src="https://th.bing.com/th/id/OIP.KMSMY3XZ6iwZPUF9D0-f7wHaD4?w=315&h=180&c=7&r=0&o=5&cb=iwc2&dpr=1.1&pid=1.7" alt="Nature 8"/>
+
+    </div>
+  </div>
+
+  <footer>
+    © 2025 Biodiversity Awareness | Designed for change 🌍|By: Gabriela Temesgen
+  </footer>
+
+</body>
+</html>
+biodiversity_single_page (1).html…]()
